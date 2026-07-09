@@ -199,7 +199,7 @@
       width: 30%;
       height: 100%;
       background-image: url(./assets/images/image-retro-pcs.jpg);
-      background-position: cover;
+      background-position: 100%;
       background-size: 100%;
       background-repeat: no-repeat;
    
@@ -209,7 +209,7 @@
       width: 30%;
       height: 100%;
       background-image: url(./assets/images/image-top-laptops.jpg);
-      background-position: 100;
+      background-position: 100%;
       background-size: 100%;
       background-repeat: no-repeat;
    
@@ -219,7 +219,7 @@
       width: 30%;
       height: 100%;
       background-image: url(./assets/images/image-gaming-growth.jpg);
-      background-position: 100;
+      background-position: 100%;
       background-size: 100%;
       background-repeat: no-repeat;      
    
