@@ -71,13 +71,13 @@
       justify-content: space-between;
       width: 90%;
       align-items: center;
-      height: 95vh;
+      height: auto;
     }
     .right-site
     {
       display: flex;
       width: 30%;
-      height: 80%;
+      height: auto;
       justify-content: center;
       background-color: hsl(240, 100%, 5%);
       align-items: center;
@@ -86,7 +86,7 @@
     {
       display: flex;
       width: 67%;
-      height: 80%;
+      height: 100%;
       flex-direction: column;
     }
     .left-site .banner
@@ -106,14 +106,13 @@
       display: flex;
       justify-content: space-between;
       margin-top: 2vh;
+      
     }
     .left-site .text-title .left-title
     {
-      width: 60%;
+      width: 50%;
       height: auto;
-      font-size: 4rem;
-      font-weight: 800;
-      
+      font-size: 1.5rem;
     }
     .left-site .text-title .right-title
     {
@@ -127,7 +126,7 @@
       display: flex;
       justify-content: center;
       width: 80%;
-      height: 90%;
+      height: auto;
       flex-direction: column;
       
     }
@@ -139,7 +138,6 @@
       font-weight: 800;
       height: fit-content;
       color:  hsl(35, 77%, 62%);
-
       
     }
     
@@ -149,11 +147,10 @@
       height: 30%;
       display: flex;
       flex-direction: column;
-      margin-top:5%;
     }
     .right-site .title-des
     {
-      font-size: 1.5rem;
+      font-size: 1rem;
       height: auto;
       display: flex;
       color: hsl(36, 100%, 99%);
@@ -181,6 +178,7 @@
       height: auto;
       width: 100%;
       margin-top: 5vh;
+      
     }
     .last-site .box
     {
@@ -201,7 +199,7 @@
       width: 30%;
       height: 100%;
       background-image: url(./assets/images/image-retro-pcs.jpg);
-      background-position: 50%;
+      background-position: cover;
       background-size: 100%;
       background-repeat: no-repeat;
    
@@ -211,7 +209,7 @@
       width: 30%;
       height: 100%;
       background-image: url(./assets/images/image-top-laptops.jpg);
-      background-position: 50%;
+      background-position: 100;
       background-size: 100%;
       background-repeat: no-repeat;
    
@@ -221,7 +219,7 @@
       width: 30%;
       height: 100%;
       background-image: url(./assets/images/image-gaming-growth.jpg);
-      background-position: 50%;
+      background-position: 100;
       background-size: 100%;
       background-repeat: no-repeat;      
    
@@ -229,20 +227,21 @@
     .row .description
     {
       width: 50%;
-      height: 100%;
+      height: auto;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+      
     }
     .row .description .number
     {
-      font-size: 2rem;
       color: hsl(5, 85%, 63%);
+      font-size: 2rem;
       font-weight: 700;
     }
     .row .description .title
     {
-      font-size: 1.2rem;
       color: hsl(240, 100%, 5%);
       font-weight: 700;
     }
@@ -253,7 +252,6 @@
     }
     .row .description .des
     {
-      font-size: 1rem;
       color: hsl(236, 13%, 42%);
     }
     button
